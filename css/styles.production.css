@@ -25,6 +25,13 @@ main {
     margin: auto 20px;
 }
 
+th {
+	padding-left: 30px;
+}
+
+td {
+	padding-left: 60px;
+}
 
 
 h1 { 
@@ -134,6 +141,9 @@ ul {
 	margin-right: 40px;
 	border-radius: 50%;
   }
+.page-header__item {
+	width: 10px;
+}
 
 
 .page-header {
@@ -226,11 +236,12 @@ ul {
 .about {
 	max-width: 700px;
 	margin: 0 auto;
-  }
-.about__information {
-	max-width: 700px;
-	margin: 0 auto;
 }
+
+.about a {
+	padding: 5px;
+}
+
 .skills__table {
 	max-width: 700px;
 	margin: 0 auto
